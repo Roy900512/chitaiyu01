@@ -13,5 +13,7 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
         //
+        'punch/stop_work',
+        'punch/start_work',
     ];
 }
